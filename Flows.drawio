@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T17:40:39.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="6S1t3xL7MlrepIwsgfGN" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T17:52:56.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="i9umRF_NAaSN5Auk8Ip4" version="24.4.0" type="github">
   <diagram name="Page-1" id="gUKE7Ty1ndnf_Hq8EU9M">
-    <mxGraphModel dx="1236" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-68" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="189" y="20" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-69" value="QC makes test anneals and tests" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="91" y="103" width="247" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-70" value="Make more test anneals in QC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="205" width="229" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-71" value="MFG makes cold mix commits 80%" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299" y="205" width="258" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-72" value="QC anneals sample and tests" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="307" width="220" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-73" value="MFG adjusts bulk ratio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="182" y="409" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-74" value="MFG adj. cold mix, commits" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="409" y="409" width="217" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-75" value="QC anneals sample and tests" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="407" y="511" width="220" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-76" value="MFG adjusts bulk ratio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="125" y="612" width="177" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-77" value="Bulk heat cycle, sample and advance to concentrator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="352" y="612" width="399" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-78" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="696" width="41" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5065545272827149;exitY=1.0121212583599668;entryX=0.49930253588718926;entryY=0.012121258359966856;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-68" target="u29ysnLNSDEaN5z4U6bu-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-80" value="Fails criteria" style="curved=1;startArrow=none;endArrow=block;exitX=0.3933293036416884;exitY=1.0242425167199336;entryX=0.5002080925687432;entryY=0.0060606869784268465;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-69" target="u29ysnLNSDEaN5z4U6bu-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-81" value="Retest" style="curved=1;startArrow=none;endArrow=block;exitX=0.6933854893972683;exitY=0.0060606869784268465;entryX=0.5724289954381753;entryY=1.0242425167199336;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-70" target="u29ysnLNSDEaN5z4U6bu-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-82" value="Meets criteria, send ratio" style="curved=1;startArrow=none;endArrow=block;exitX=0.7834362988911405;exitY=1.0242425167199336;entryX=0.5009023385454517;entryY=0.0060606869784268465;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-69" target="u29ysnLNSDEaN5z4U6bu-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-83" value="Submit" style="curved=1;startArrow=none;endArrow=block;exitX=0.5009023385454517;exitY=1.0181819453383938;entryX=0.5010581970214844;entryY=1.1559688683712122e-7;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-71" target="u29ysnLNSDEaN5z4U6bu-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-84" value="Fail" style="curved=1;startArrow=none;endArrow=block;exitX=0.21614161277978677;exitY=1.0121213739568538;entryX=0.4369887867909591;entryY=-0.0060604557846531725;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-72" target="u29ysnLNSDEaN5z4U6bu-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="237" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-85" value="Resubmit" style="curved=1;startArrow=none;endArrow=block;exitX=0.6642979365453523;exitY=-0.0060604557846531725;entryX=0.39902215599127594;entryY=1.0121213739568538;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-73" target="u29ysnLNSDEaN5z4U6bu-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-86" value="Pass" style="curved=1;startArrow=none;endArrow=block;exitX=0.6336055166451168;exitY=1.0121213739568538;entryX=0.4982070834955312;entryY=-0.0060604557846531725;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-72" target="u29ysnLNSDEaN5z4U6bu-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-87" value="Submit" style="curved=1;startArrow=none;endArrow=block;exitX=0.4982070834955312;exitY=1.0060608025753137;entryX=0.500504259629683;entryY=-0.012121027166193182;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-74" target="u29ysnLNSDEaN5z4U6bu-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-88" value="Fail" style="curved=1;startArrow=none;endArrow=block;exitX=0.0008735916831276633;exitY=0.997060531892523;entryX=0.4366864154587582;entryY=0.012121431755297112;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-75" target="u29ysnLNSDEaN5z4U6bu-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-89" value="Resubmit" style="curved=1;startArrow=none;endArrow=block;exitX=0.7482246901157935;exitY=0.012121431755297112;entryX=0.24860098852283272;entryY=1.0000002311937737;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-76" target="u29ysnLNSDEaN5z4U6bu-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-90" value="Pass" style="curved=1;startArrow=none;endArrow=block;exitX=0.5509505087574359;exitY=1.0000002311937737;entryX=0.49858924679290084;entryY=0.012121431755297112;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-75" target="u29ysnLNSDEaN5z4U6bu-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="551" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u29ysnLNSDEaN5z4U6bu-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49858924679290084;exitY=1.024242690115264;entryX=0.5106612065943276;entryY=-0.0060603401877663355;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u29ysnLNSDEaN5z4U6bu-77" target="u29ysnLNSDEaN5z4U6bu-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
